@@ -1,0 +1,14 @@
+Revision	: c03114
+Model		: Raspberry Pi 4 Model B Rev 1.4
+4
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       522Mi       1.6Gi        70Mi       1.7Gi       3.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   29G  9.4G   19G  35% /
+Linux RaspberryPi4 6.18.33+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.33-1+rpt1 (2026-06-01) aarch64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie

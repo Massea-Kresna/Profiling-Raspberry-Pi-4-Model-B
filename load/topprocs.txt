@@ -1,0 +1,20 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+massea     21782  200  0.0   9244  3880 pts/1    R+   00:42   0:00 ps aux --sort=-%cpu
+massea     21702 68.7  3.4 165084 133784 pts/0   R+   00:41   1:00 stress-ng-vm [run]
+massea     21703 63.8  1.7 165084 68696 pts/0    R+   00:41   0:56 stress-ng-vm [run]
+massea     21696 61.9  0.1  34004  7472 pts/0    R+   00:41   0:54 stress-ng-cpu [run]
+massea     21698 59.6  0.1  34004  7472 pts/0    R+   00:41   0:52 stress-ng-cpu [run]
+massea     21697 56.9  0.1  34004  7472 pts/0    R+   00:41   0:50 stress-ng-cpu [run]
+massea     21695 55.3  0.1  34004  7472 pts/0    R+   00:41   0:49 stress-ng-cpu [run]
+massea     21701 10.1  0.0  34164  3412 pts/0    D+   00:41   0:08 stress-ng-hdd [run]
+vnc          955  1.1  2.6 737100 102228 ?       Sl   Jun16   1:47 wayvnc --detached --gpu --config /etc/wayvnc/config --socket /tmp/wayvnc/wayvncctl.sock
+massea      1661  0.7  2.0 585208 78316 ?        Sl   Jun16   1:06 /usr/bin/x-terminal-emulator
+massea      1024  0.6  3.6 720196 141904 ?       Ssl  Jun16   1:05 /usr/bin/labwc -m
+root       21704  0.6  0.0      0     0 ?        D    00:41   0:00 [kworker/u16:3+flush-179:0]
+massea      1239  0.4  1.3 911080 53272 ?        Sl   Jun16   0:41 /usr/bin/wf-panel-pi
+root       21586  0.3  0.0      0     0 ?        I    00:32   0:02 [kworker/u16:4-ext4-rsv-conversion]
+massea      1240  0.3  1.6 752716 65732 ?        Sl   Jun16   0:32 pcmanfm --desktop
+root       21565  0.2  0.0      0     0 ?        I    00:31   0:01 [kworker/u16:0-v3d_render]
+root       21634  0.2  0.0      0     0 ?        D<   00:36   0:00 [kworker/0:3H+kblockd]
+root       21774  0.1  0.0      0     0 ?        I    00:42   0:00 [kworker/u16:5-v3d_bin]
+root          67  0.1  0.0      0     0 ?        I<   Jun16   0:15 [kworker/u17:0-brcmf_wq/mmc1:0001:1]
