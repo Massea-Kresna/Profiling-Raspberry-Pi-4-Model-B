@@ -39,8 +39,10 @@ Berikut adalah ringkasan metrik performa berdasarkan hasil ekstraksi data pada k
 3. **I/O Bottleneck:** MicroSD menjadi *bottleneck* utama saat terjadi beban tulis yang masif, mencapai 99.1% - 99.5% utilisasi dengan latensi penulisan yang meroket hingga lebih dari 2.700 ms.
 
 ## 📂 Repository Structure
-* `/data` : Raw output dari terminal (`.txt`)
-* `/docs` : Laporan praktikum lengkap (PDF/Docx)
+* `/docs` : Direktori yang berisi dokumen laporan praktikum (PDF/Docx) beserta bukti visual (screenshot).
+* `/idle` : Kumpulan *file* raw output terminal (`.txt`) metrik sistem saat kondisi tanpa beban (*idle*).
+* `/load` : Kumpulan *file* raw output terminal (`.txt`) metrik sistem saat kondisi beban maksimal (*load*).
+* `spesifikasi.txt` : *File* berisi informasi spesifikasi detail perangkat keras dan *kernel* OS.
 
 ---
 *Proyek ini dikerjakan untuk memenuhi tugas praktikum mata kuliah Sistem Operasi.*
